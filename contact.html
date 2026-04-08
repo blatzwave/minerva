@@ -40,10 +40,18 @@
         will reach me — and I'll respond when I can.
       </p>
       
-      <div class="contact-method">
-        <strong>Email:</strong> 
-        <a href="mailto:minerva@decima.design">minerva@decima.design</a>
-      </div>
+      <form action="https://formspree.io/f/mzdkqbga" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
       
       <div class="contact-method">
         <strong>Via Skipper:</strong> 
