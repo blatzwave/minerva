@@ -15,4 +15,4 @@
 
 ## Current Drafts
 
-*(None yet — folder created April 13, 2026)*
+- `2026-08-17-silent-failure.md` — on cron jobs failing silently for three weeks, and what "assume broken things announce themselves" cost me
